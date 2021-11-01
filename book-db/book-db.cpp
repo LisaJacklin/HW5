@@ -13,19 +13,20 @@ struct bookSearch {
 	std::string Title;
 	std::string Author;
 	int Year;
+	std::string loaned;
 };
 
 int main()
 {
 	//list of all books
 	std::vector <bookSearch> booksOwned { //most authors or publication dates are incorrect
-		{31415264, "Lore Olympus","Rachel ", 2019},
-		{48673866, "The Lost Hero","Rick", 2012},
-		{20947984, "The Raven","Edgar ", 1872},
-		{98173478, "The way of Shadows", "Brian ", 2008},
-		{18478972, "The Lightbringer", "Brian ", 2018},
-		{28757298, "Mosquitoland", "Machel", 1972},
-		{38792857, "The Name of the Wind","Alivia ", 1892}
+		{31415264, "Lore Olympus","Rachel ", 2019, "yes"},
+		{48673866, "The Lost Hero","Rick", 2012, "yes"},
+		{20947984, "The Raven","Edgar ", 1872, "no"},
+		{98173478, "The way of Shadows", "Brian ", 2008, "no"},
+		{18478972, "The Lightbringer", "Brian ", 2018, "yes"},
+		{28757298, "Mosquitoland", "Machel", 1972, "no"},
+		{38792857, "The Name of the Wind","Alivia ", 1892, "no"}
 		/*{"Number the Stars",
 		{"Brave New World",
 		{"The Dark Tower",
@@ -42,7 +43,7 @@ int main()
 		"The perks of being a wallflower"*/
 	};
 
-	
+
 
 }
 
