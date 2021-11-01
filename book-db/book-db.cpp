@@ -40,11 +40,13 @@ int main()
 		"Do androids dream of electric sheep?",
 		"To kill a mockingbird",
 		"The perks of being a wallflower"
-
-
 	};
 
+	for (auto i : booksOwned) {
+		std::cout << "books Owned";
+		std::cout << i << " \n";
 
+	}
 
 }
 
