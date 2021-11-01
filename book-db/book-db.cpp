@@ -18,6 +18,7 @@ struct bookSearch {
 
 int main()
 {
+	//list of all books
 	std::vector <std::string> booksOwned{
 		"Lore Olympus",
 		"The Lost Hero",
@@ -51,10 +52,6 @@ int main()
 }
 
 /*
-requirements:
-1 use an initializer to create 20 books in a vector
-2 create the following options:
--list of all books
 -list of all books loaned out
 -list of all books not loaned out
 

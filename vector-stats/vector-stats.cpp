@@ -6,6 +6,13 @@
 
 #include <iostream>
 
+struct vectorStats {
+    int min;
+    int max;
+    double mean;
+    double median;
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
