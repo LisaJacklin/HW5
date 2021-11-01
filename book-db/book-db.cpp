@@ -15,23 +15,22 @@ struct bookSearch {
 	int Year;
 };
 
-
 int main()
 {
 	//list of all books
-	std::vector <std::string> booksOwned{
-		"Lore Olympus",
-		"The Lost Hero",
-		"The Raven",
-		"The way of Shadows",
-		"The Lightbringer",
-		"Mosquitoland",
-		"The Name of the Wind",
-		"Number the Stars",
-		"Brave New World",
-		"The Dark Tower",
-		"I know why the caged bird sings",
-		"Gone with the wind",
+	std::vector <bookSearch> booksOwned { //most authors or publication dates are incorrect
+		{31415264, "Lore Olympus","Rachel ", 2019},
+		{48673866, "The Lost Hero","Rick", 2012},
+		{20947984, "The Raven","Edgar ", 1872},
+		{98173478, "The way of Shadows", "Brian ", 2008},
+		{18478972, "The Lightbringer", "Brian ", 2018},
+		{28757298, "Mosquitoland", "Machel", 1972},
+		{38792857, "The Name of the Wind","Alivia ", 1892}
+		/*{"Number the Stars",
+		{"Brave New World",
+		{"The Dark Tower",
+		{"I know why the caged bird sings",
+		{"Gone with the wind",
 		"As I lay dying",
 		"The grapes of wrath",
 		"Bury my Heart at wounded knee",
@@ -40,14 +39,10 @@ int main()
 		"Where the mountain meets the moon",
 		"Do androids dream of electric sheep?",
 		"To kill a mockingbird",
-		"The perks of being a wallflower"
+		"The perks of being a wallflower"*/
 	};
 
-	for (auto i : booksOwned) {
-		std::cout << "books Owned";
-		std::cout << i << " \n";
-
-	}
+	
 
 }
 

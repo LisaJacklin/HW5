@@ -26,3 +26,6 @@ int main()
 
 }
 
+/*
+return all min, max, mean and meadian values using a struct.
+*/
